@@ -1,0 +1,141 @@
+﻿<Page
+    x:Class="Galería.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Galería"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    >
+    
+    
+    <RelativePanel Name="rp01">
+        <StackPanel Name="sp01" Background="LightSkyBlue">
+            <AppBarButton Name="btnAdd" Label="Añadir" Icon="Add"></AppBarButton>
+            <AppBarButton Name="btnGo" Label="Ir" Icon="Go"></AppBarButton>
+            <AppBarButton Name="btnTarget" Label="Objetivo" Icon="Target"></AppBarButton>
+            <AppBarButton Name="btnAddFriend" Label="Añadir" Icon="AddFriend"></AppBarButton>
+        </StackPanel>
+        <Grid Name="gr01">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Image Name="foto01" Source="../Assets/gorda1.jpg"  Stretch="Fill"/>
+            <Image Name="foto02" Source="../Assets/gorda2.jpg"  Stretch="Fill"/>
+            <Image Name="foto03" Source="../Assets/mini1.jpg"  Stretch="Fill"/>
+            <Image Name="foto04" Source="../Assets/gorda1.jpg" Stretch="Fill"/>
+            <Image Name="foto05" Source="../Assets/gorda2.jpg"  Stretch="Fill"/>
+            <Image Name="foto06" Source="../Assets/mini1.jpg"  Stretch="Fill"/>
+            <Image Name="foto07" Source="../Assets/gorda2.jpg"  Stretch="Fill"/>
+            <Image Name="foto08" Source="../Assets/mini1.jpg"  Stretch="Fill"/>
+            <Image Name="foto09" Source="../Assets/gorda1.jpg"  Stretch="Fill"/>
+        </Grid>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="vsGroup">
+                <VisualState x:Name="vState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="550"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="foto01.(Grid.Row)" Value="0"/>
+                        <Setter Target="foto01.(Grid.Column)" Value="0"/>
+                        <Setter Target="foto02.(Grid.Row)" Value="0"/>
+                        <Setter Target="foto02.(Grid.Column)" Value="1"/>
+                        <Setter Target="foto03.(Grid.Row)" Value="0"/>
+                        <Setter Target="foto03.(Grid.Column)" Value="2"/>
+                        <Setter Target="foto04.(Grid.Row)" Value="1"/>
+                        <Setter Target="foto04.(Grid.Column)" Value="0"/>
+                        <Setter Target="foto05.(Grid.Row)" Value="1"/>
+                        <Setter Target="foto05.(Grid.Column)" Value="1"/>
+                        <Setter Target="foto06.(Grid.Row)" Value="1"/>
+                        <Setter Target="foto06.(Grid.Column)" Value="2"/>
+                        <Setter Target="foto07.(Grid.Row)" Value="2"/>
+                        <Setter Target="foto07.(Grid.Column)" Value="0"/>
+                        <Setter Target="foto08.(Grid.Row)" Value="2"/>
+                        <Setter Target="foto08.(Grid.Column)" Value="1"/>
+                        <Setter Target="foto09.(Grid.Row)" Value="2"/>
+                        <Setter Target="foto09.(Grid.Column)" Value="2"/>
+                        <Setter Target="sp01.(RelativePanel.AlignBottomWithPanel)" Value="True"/>
+                        <Setter Target="sp01.(RelativePanel.AlignTopWithPanel)" Value="True"/>
+                        <Setter Target="gr01.(RelativePanel.RightOf)" Value="sp01"/>
+                        <Setter Target="gr01.(RelativePanel.AlignTopWithPanel)" Value="True"/>
+                        <Setter Target="gr01.(RelativePanel.AlignBottomWithPanel)" Value="True"/>
+                        <Setter Target="gr01.(RelativePanel.AlignRightWithPanel)" Value="True"/>
+                        <Setter Target="sp01.Orientation" Value="Vertical"/>
+                        <Setter Target="gr01.RowDefinitions[0].Height" Value="*"/>
+                        <Setter Target="gr01.RowDefinitions[1].Height" Value="*"/>
+                        <Setter Target="gr01.RowDefinitions[2].Height" Value="*"/>
+                        <Setter Target="gr01.RowDefinitions[3].Height" Value="0"/>
+                        <Setter Target="gr01.RowDefinitions[4].Height" Value="0"/>
+                        <Setter Target="gr01.RowDefinitions[5].Height" Value="0"/>
+                        <Setter Target="gr01.RowDefinitions[6].Height" Value="0"/>
+                        <Setter Target="gr01.RowDefinitions[7].Height" Value="0"/>
+                        <Setter Target="gr01.RowDefinitions[8].Height" Value="0"/>
+                        <Setter Target="gr01.ColumnDefinitions[0].Width" Value="*"/>
+                        <Setter Target="gr01.ColumnDefinitions[1].Width" Value="*"/>
+                        <Setter Target="gr01.ColumnDefinitions[2].Width" Value="*"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="vState02">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="sp01.(RelativePanel.AlignTopWithPanel" Value="True"/>
+                        <Setter Target="sp01.(RelativePanel.AlignRightWithPanel" Value="True"/>
+                        <Setter Target="sp01.(RelativePanel.AlignLeftWithPanel" Value="True"/>
+                        <Setter Target="sp01.(Orientation)" Value="Horizontal"/>
+                        <Setter Target="gr01.(RelativePanel.Below)" Value="sp01"/>
+                        <Setter Target="gr01.(RelativePanel.AlignRightWithPanel)" Value="true"/>
+                        <Setter Target="gr01.(RelativePanel.AlignLeftWithPanel)" Value="true"/>
+                        <Setter Target="gr01.(RelativePanel.AlignBottomWithPanel)" Value="true"/>
+                        <Setter Target="gr01.RowDefinitions[0].Height" Value="auto"/>
+                        <Setter Target="gr01.RowDefinitions[1].Height" Value="auto"/>
+                        <Setter Target="gr01.RowDefinitions[2].Height" Value="auto"/>
+                        <Setter Target="gr01.RowDefinitions[3].Height" Value="auto"/>
+                        <Setter Target="gr01.RowDefinitions[4].Height" Value="auto"/>
+                        <Setter Target="gr01.RowDefinitions[5].Height" Value="auto"/>
+                        <Setter Target="gr01.RowDefinitions[6].Height" Value="auto"/>
+                        <Setter Target="gr01.RowDefinitions[7].Height" Value="auto"/>
+                        <Setter Target="gr01.RowDefinitions[8].Height" Value="auto"/>
+                        <Setter Target="gr01.ColumnDefinitions[0].Width" Value="*"/>
+                        <Setter Target="gr01.ColumnDefinitions[1].Width" Value="0"/>
+                        <Setter Target="gr01.ColumnDefinitions[2].Width" Value="0"/>
+                        <Setter Target="foto01.(Grid.Row)" Value="0"/>
+                        <Setter Target="foto01.(Grid.Column)" Value="0"/>
+                        <Setter Target="foto02.(Grid.Row)" Value="1"/>
+                        <Setter Target="foto02.(Grid.Column)" Value="0"/>
+                        <Setter Target="foto03.(Grid.Row)" Value="2"/>
+                        <Setter Target="foto03.(Grid.Column)" Value="0"/>
+                        <Setter Target="foto04.(Grid.Row)" Value="3"/>
+                        <Setter Target="foto04.(Grid.Column)" Value="0"/>
+                        <Setter Target="foto05.(Grid.Row)" Value="4"/>
+                        <Setter Target="foto05.(Grid.Column)" Value="0"/>
+                        <Setter Target="foto06.(Grid.Row)" Value="5"/>
+                        <Setter Target="foto06.(Grid.Column)" Value="0"/>
+                        <Setter Target="foto07.(Grid.Row)" Value="6"/>
+                        <Setter Target="foto07.(Grid.Column)" Value="0"/>
+                        <Setter Target="foto08.(Grid.Row)" Value="7"/>
+                        <Setter Target="foto08.(Grid.Column)" Value="0"/>
+                        <Setter Target="foto09.(Grid.Row)" Value="8"/>
+                        <Setter Target="foto09.(Grid.Column)" Value="0"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </RelativePanel>
+</Page>

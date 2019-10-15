@@ -1,0 +1,4 @@
+#Mon Oct 14 17:00:39 CEST 2019
+base.0=C\:\\Users\\Ryu\\Desktop\\Android\\List\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

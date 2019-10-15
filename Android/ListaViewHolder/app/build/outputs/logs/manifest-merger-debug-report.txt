@@ -1,0 +1,91 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:1:1-23:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\39def364e6fdd9b499ed4c5be6454ce7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\c6e031f0e33691e733c70d8e8f749b65\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\19de31e3d0b6f1163240a03021c645cf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6c22b2753b8705216d2976d2fab40f12\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f03a0606a269f92b4958410a1173fb02\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\bcb35db5225eab1ff0d24e7a5a6174bf\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fc2a6d5aa8737226b29180de2ba5a570\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6a144f2e4e91fe0e3d2a1d0e2290b169\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\770b415dfa0fd225ef9bd69b6fb079f3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\31b4652e2845a133a1e7b24dfe7d959a\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:1:1-23:12
+	package
+		ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:2:5-52
+		INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:8:5-21:19
+	android:label
+		ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:9:9-45
+	android:theme
+		ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:11:9-40
+activity#es.iesnervion.android.listaviewholder.ListaViewHolder
+ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:14:13-69
+	android:name
+		ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:13:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\39def364e6fdd9b499ed4c5be6454ce7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\39def364e6fdd9b499ed4c5be6454ce7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\c6e031f0e33691e733c70d8e8f749b65\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\c6e031f0e33691e733c70d8e8f749b65\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\19de31e3d0b6f1163240a03021c645cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\19de31e3d0b6f1163240a03021c645cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6c22b2753b8705216d2976d2fab40f12\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6c22b2753b8705216d2976d2fab40f12\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f03a0606a269f92b4958410a1173fb02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f03a0606a269f92b4958410a1173fb02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\bcb35db5225eab1ff0d24e7a5a6174bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\bcb35db5225eab1ff0d24e7a5a6174bf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fc2a6d5aa8737226b29180de2ba5a570\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fc2a6d5aa8737226b29180de2ba5a570\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6a144f2e4e91fe0e3d2a1d0e2290b169\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6a144f2e4e91fe0e3d2a1d0e2290b169\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\770b415dfa0fd225ef9bd69b6fb079f3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\770b415dfa0fd225ef9bd69b6fb079f3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\31b4652e2845a133a1e7b24dfe7d959a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Ryu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\31b4652e2845a133a1e7b24dfe7d959a\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ryu\Desktop\Android\ListaViewHolder\app\src\main\AndroidManifest.xml
