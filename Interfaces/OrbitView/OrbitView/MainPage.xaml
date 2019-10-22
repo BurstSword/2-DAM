@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="OrbitView.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OrbitView"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel>
+        <controls:OrbitView OrbitsEnabled="True" 
+                    MinItemSize="20" 
+                    MaxItemSize="60" AnchorColor="BlueViolet" OrbitColor="CornflowerBlue">
+            <controls:OrbitView.ItemTemplate>
+                <DataTemplate x:DataType="controls:OrbitViewDataItem">
+                    <controls:DropShadowPanel Color="AliceBlue" BlurRadius="20" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
+                        <Ellipse >
+                            <Ellipse.Fill>
+                                <ImageBrush ImageSource="{x:Bind Image}"></ImageBrush>
+                            </Ellipse.Fill>
+                        </Ellipse>
+                    </controls:DropShadowPanel>
+                </DataTemplate>
+            </controls:OrbitView.ItemTemplate>
+
+            <controls:OrbitView.ItemsSource>
+                <controls:OrbitViewDataItemCollection>
+                    <controls:OrbitViewDataItem Image="../Assets/mini1.jpg" Distance="0.1"  Diameter="1.1"></controls:OrbitViewDataItem>
+                    <controls:OrbitViewDataItem Image="../Assets/mini2.jpg" Distance="0.2"  Diameter="1.8"></controls:OrbitViewDataItem>
+                    <controls:OrbitViewDataItem Image="../Assets/mini3.jpg" Distance="0.4"  Diameter="1.3"></controls:OrbitViewDataItem>
+                    <controls:OrbitViewDataItem Image="../Assets/mini4.jpg" Distance="0.8"  Diameter="1.4"></controls:OrbitViewDataItem>
+                </controls:OrbitViewDataItemCollection>
+            </controls:OrbitView.ItemsSource>
+
+            <controls:OrbitView.CenterContent>
+                <Grid>
+                    <controls:DropShadowPanel>
+                        <Ellipse Fill="White" Height="105" Width="105" Stroke="AliceBlue" StrokeThickness="4"></Ellipse>
+                    </controls:DropShadowPanel>
+                    <Ellipse Height="100" Width="100" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="../Assets/yo.jpg"></ImageBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                </Grid>
+            </controls:OrbitView.CenterContent>
+        </controls:OrbitView>
+    </RelativePanel>
+</Page>
