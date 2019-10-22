@@ -7,15 +7,15 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-    Width="500">
+    >
     
     
     <RelativePanel x:ConnectionId='2' Name="rp01">
         <StackPanel x:ConnectionId='3' Name="sp01" Background="LightSkyBlue">
-            <AppBarButton x:ConnectionId='14' Name="btnAdd" Icon="Add"></AppBarButton>
-            <AppBarButton x:ConnectionId='15' Name="btnGo" Icon="Go"></AppBarButton>
-            <AppBarButton x:ConnectionId='16' Name="btnTarget" Icon="Target"></AppBarButton>
-            <AppBarButton x:ConnectionId='17' Name="btnAddFriend" Icon="AddFriend"></AppBarButton>
+            <AppBarButton x:ConnectionId='14' Name="btnAdd" Label="Añadir" Icon="Add"></AppBarButton>
+            <AppBarButton x:ConnectionId='15' Name="btnGo" Label="Ir" Icon="Go"></AppBarButton>
+            <AppBarButton x:ConnectionId='16' Name="btnTarget" Label="Objetivo" Icon="Target"></AppBarButton>
+            <AppBarButton x:ConnectionId='17' Name="btnAddFriend" Label="Añadir" Icon="AddFriend"></AppBarButton>
         </StackPanel>
         <Grid x:ConnectionId='4' Name="gr01">
             <Grid.ColumnDefinitions>
