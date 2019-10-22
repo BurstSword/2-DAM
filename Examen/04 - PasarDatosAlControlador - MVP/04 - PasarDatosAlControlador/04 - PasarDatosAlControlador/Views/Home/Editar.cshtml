@@ -1,0 +1,31 @@
+﻿@model _04___PasarDatosAlControlador.Models.PersonaYDepartamento
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Editar</title>
+</head>
+<body>
+    <div>
+        <form method="post">
+
+            <label>Nombre: </label>@Html.TextBoxFor(m => Model.persona.nombre) <br /><br />
+            <label>Apellidos: </label>@Html.TextBoxFor(m => Model.persona.apellidos) <br /><br />
+            <label>Dirección: </label>@Html.TextBoxFor(m => Model.persona.direccion) <br /><br />
+            <label>Teléfono: </label>@Html.TextBoxFor(m => Model.persona.telefono) <br /><br />
+            <label>Fecha de nacimiento: </label>@Html.TextBox("fechaNacimiento", Model.persona.fechaNacimiento, new { @type = "date" }) <br /><br /><br />
+            <label>ID Dpto: </label>@Html.TextBoxFor(m => Model.persona.idDptos) <br /><br />
+            <!--
+    Aquí iría el DropDownList que no he sido capaz de implementar
+    -->
+            <input type="submit" value="Editar" />
+        </form>
+    </div>
+</body>
+</html>

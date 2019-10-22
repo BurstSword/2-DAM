@@ -1,0 +1,23 @@
+﻿@model _04___PasarDatosAlControlador.Models.PersonaYDepartamento
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PersonaModificada</title>
+</head>
+<body>
+    <div>
+        <label>Nombre: </label> @Model.persona.nombre <br />
+        <label>Apellidos: </label> @Model.persona.apellidos <br />
+        <label>Dirección: </label> @Model.persona.direccion <br />
+        <label>Teléfono: </label> @Model.persona.telefono <br />
+        <label>Fecha de nacimiento: </label> @Model.persona.fechaNacimiento.ToShortDateString() <br />
+        <label>ID Dpto: </label> @Model.persona.idDptos <br />
+    </div>
+</body>
+</html>
